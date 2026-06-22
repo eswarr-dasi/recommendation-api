@@ -1,0 +1,21 @@
+{
+    "name": "recommendation-api",
+    "version": "1.0.0",
+    "description": "Graph-based product recommendation API using Neo4j and GraphQL",
+    "main": "src/index.js",
+    "scripts": {
+          "start": "node src/index.js",
+          "dev": "nodemon src/index.js",
+          "test": "jest --coverage"
+    },
+    "dependencies": {
+          "apollo-server-express": "^3.13.0",
+          "express": "^4.18.2",
+          "graphql": "^16.8.1",
+          "neo4j-driver": "^5.17.0"
+    },
+    "devDependencies": {
+          "jest": "^29.7.0",
+          "nodemon": "^3.0.3"
+    }
+}
